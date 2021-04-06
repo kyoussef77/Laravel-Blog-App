@@ -2,6 +2,8 @@
 
 namespace Tests\Unit;
 
+use App\Models\Page;
+use App\Models\User;
 use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
@@ -11,8 +13,9 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function test_example()
+    public function testBasicTest()
     {
+
         $this->assertTrue(true);
     }
 }
